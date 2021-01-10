@@ -147,9 +147,9 @@ link = "#"
 ################################ English Language ########################
 defaultContentLanguageInSubdir = false
 ################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
+#[Languages.fr]
+#languageName = "Fr"
+#languageCode = "fr-fr"
 #contentDir = "content/"
 weight = 2
 # copyright
