@@ -1,0 +1,76 @@
+---
+title: test
+author: ''
+date: '2021-01-07'
+slug: []
+categories: []
+tags: []
+bg_image: images/featue-bg.jpg
+image: images/blog/blog-post-1.jpg
+type: post
+---
+
+```{r,message=FALSE}
+# Chargement des librairies
+library(rmarkdown)
+library(tidyverse)
+library(flexdashboard)
+library(timetk)
+library(plotly)
+x <- 2
+if (x == 2) {
+# Modifier manuellement la couleur par défaut.
+# Utiliser la fonction scale_color_manual()
+p <- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
+  geom_point(aes(color = Species, shape = Species))+
+  scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07"))
+ggplotly(p)
+}
+```
+
+```python
+# Commentaire python
+'''
+commentaire python
+'''
+import pandas as pd
+import numpy as np
+def factorielle(n):
+    if n < 2:
+        return 1
+    else:
+        return n * factorielle(n - 1)
+```
+```SAS
+PROC PRINT data=sashelp.cars;
+var _numeric_;
+RUN;
+************************************;
+* la proc sql                      *;
+************************************;
+PROC SQL;
+SELECT * FROM SASHELP.CARS;
+QUIT;
+data _null_;
+set sashelp.cars;
+run;
+data test;
+input x1 x2 $;
+datalines;
+12 F
+15 M
+13 M
+16 F
+11 F
+15 M
+;
+run;
+PROC print data=sashelp.cars;
+var x1;
+by x2;
+format ddmmyy10.;
+run;
+```
+```sql
+SELECT * FROM base;
+```

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Airspace | Creative Agency Hugo Template</title>
+    <link>/author/</link>
+    <description>Recent content in Authors on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright><atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boukary Ouedraogo</title>
+      <link>/author/boukary-ouedraogo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/boukary-ouedraogo/</guid>
+      <description>Boukary Ouedraogo est ingénieur statisticien-économiste diplômé de l&amp;rsquo;Institut National de Statistique et d&amp;rsquo;Economie Appliquée(INSEA) de Rabat et titulaire d&amp;rsquo;un master en modélisation prospective de l&amp;rsquo;Université Paris Sacaly. En tant que statisticien à la CCMSA, il travaille sur les prévisions des dépenses pour la branche famille et également sur les problématiques de lutte contre la fraude au travers de modèles de data minig et de machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>

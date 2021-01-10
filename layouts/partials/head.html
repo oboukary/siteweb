@@ -1,0 +1,44 @@
+<head>
+  <meta charset="utf-8">
+  <link rel='stylesheet' href='/css/fonts.css' />
+  <link rel='stylesheet' href='/sas/copy-pre.css' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+  
+  {{ $prismcss := resources.Get "css/prism.css" | resources.Minify }}
+{{- if (eq (getenv "HUGO_ENV") "production") -}}
+  {{ $prismcss = $prismcss | fingerprint "md5" }}
+{{ end }}
+<link rel="stylesheet" href="{{ $prismcss.RelPermalink }}">
+  <title>{{ .Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+  
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css}}
+  <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+{{ $prismjs := resources.Get "js/prism.js" | resources.Minify }}
+{{- if (eq (getenv "HUGO_ENV") "production") -}}
+  {{ $prismjs = $prismjs | fingerprint "md5" }}
+{{ end }}
+<script src="{{ $prismjs.RelPermalink }}"></script>
+</head>

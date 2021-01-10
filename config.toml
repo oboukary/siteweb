@@ -1,0 +1,211 @@
+################################# Default configuration ###################
+baseURL = "/"
+title = "Airspace | Creative Agency Hugo Template"
+theme = "airspace-hugo"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "30"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+DefaultContentLanguage = "fr"
+# ignore blogdown files
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# disable language
+disableLanguages = []
+
+################################# Outputs #################################
+# hugo outputs
+[outputs]
+home = ["HTML","RSS"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+attributes = "defer"
+
+
+############################### widgets #################################
+
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_width = "150px"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Contact Information
+mobile = "0124857985320"
+email = "demo@email.com"
+location = "North Main Street,Brooklyn Australia"
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # Your ID# search
+# multi-author support (if set to true, you must use an Array in the author field)
+multi_author = false
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Navigation get start button
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+
+# google map
+[params.gmap]
+enable = true
+gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+############################# social site ########################
+[[params.social]]
+icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+
+################################ English Language ########################
+
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+# copyright
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+
+
+######################### france navigation #############################
+# main menu
+[[menu.main]]
+name = "Accueil"
+URL = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 2
+
+[[menu.main]]
+name = "Projets"
+URL = "project"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+
+# footer menu
+[[menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[menu.footer]]
+name = "Project"
+URL = "project"
+weight = 2
+
+[[menu.footer]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[menu.footer]]
+name = "Pricing"
+URL = "pricing"
+weight = 4
+
+[[menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 5
+
+[[menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 6
