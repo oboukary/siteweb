@@ -172,7 +172,6 @@ weight = 2
 name = "Projets"
 URL = "project"
 weight = 3
-
 [[menu.main]]
 name = "Contact"
 URL = "contact"
@@ -181,31 +180,16 @@ weight = 4
 
 # footer menu
 [[menu.footer]]
-name = "About"
+name = "A propos"
 URL = "about"
 weight = 1
 
 [[menu.footer]]
-name = "Project"
+name = "Projets"
 URL = "project"
 weight = 2
 
 [[menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 3
