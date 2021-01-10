@@ -145,12 +145,12 @@ link = "#"
 
 
 ################################ English Language ########################
-
+defaultContentLanguageInSubdir = false
 ################################ France Language ########################
 [Languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
-contentDir = "content/french"
+#contentDir = "content/"
 weight = 2
 # copyright
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
