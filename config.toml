@@ -10,7 +10,8 @@ summaryLength = "30"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 DefaultContentLanguage = "fr"
 # ignore blogdown files
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$",
+           "\\.knit\\.md$", "\\.utf8\\.md$"]
 # disable language
 disableLanguages = []
 
@@ -18,10 +19,11 @@ disableLanguages = []
 # hugo outputs
 [outputs]
 home = ["HTML","RSS"]
-
 # render unsafe html
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
@@ -115,8 +117,8 @@ map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = true
-expire_days = 2
+enable = false
+#expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
@@ -143,14 +145,15 @@ link = "#"
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
 link = "#"
 
-
-################################ English Language ########################
 defaultContentLanguageInSubdir = false
+##############[markup]
+
+
 ################################ France Language ########################
-#[Languages.fr]
-#languageName = "Fr"
-#languageCode = "fr-fr"
-#contentDir = "content/"
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
 weight = 2
 # copyright
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
@@ -165,31 +168,31 @@ weight = 1
 
 [[menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "blog/"
 weight = 2
 
 [[menu.main]]
 name = "Projets"
-URL = "project"
+URL = "project/"
 weight = 3
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 4
 
 
 # footer menu
 [[menu.footer]]
 name = "A propos"
-URL = "about"
+URL = "about/"
 weight = 1
 
 [[menu.footer]]
 name = "Projets"
-URL = "project"
+URL = "project/"
 weight = 2
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 3

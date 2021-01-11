@@ -42,7 +42,7 @@ color: #3e6e34;
   color: #0025f5;
 }
 .language-python >.token.namespace {
-  color: #2e6b0d;
+  color: #0025f5;
   opacity: .7;
 }
 .language-python > .token.variable {
@@ -99,6 +99,7 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: visible;
 	padding: 0;
+	
 }
 pre[class*="language-"]&gt;code {
 	position: relative;
