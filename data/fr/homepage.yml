@@ -3,30 +3,30 @@ banner:
   enable : true
   bg_image : "images/slider-bg.jpg"
   bg_overlay : true
-  title : "A Digital Marketing <br/> & Design Agency"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : " Data science<br/> &intelligence artificielle"
+  content : "Les données au service des hommes"
   button:
     enable : true
-    label : "Discover Our Project"
+    label : "Découvrir mon blog"
     link : "project"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
+  title : "À propos de moi"
+  description : " Je suis un passionné des sciences de la donnée et de ses applications dans
+               divers domaines comme l'économie, la finance, l'assurance, le secteur médical etc."
+  content : "Je suis ingénieur statisticien-économiste diplômé de l'Institut National de
+             de Statistique et d'Economie Appliquée(INSEA) de Rabat au Maroc.
+             Je suis également titulaire d'un master en modélisation prospective de
+             l'Université Paris Saclay.<br/> J'ai une passion pour tout ce qui concerne la data science et l'IA.
+             J'ai également programmé sous R, Python et SAS."
   image : "images/wrapper-img.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
-  enable : true
+  enable : false
   bg_image : "images/featue-bg.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
@@ -66,9 +66,7 @@ funfacts:
   enable : true
   title : "Mes réalisations"
   description : " A ce jour voilà ce que j'ai pu realiser.
-                 Fantastique non!
-  
-       "
+                 Fantastique non!"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -92,23 +90,24 @@ funfacts:
 
   testimonial_slider:
     # testimonial item loop
-    - name : "Certification SAS base"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "SAS Certified Specialist Base Programming Using SAS 9.4"
+      image : "images/clients/sas_base.png"
+      designation : "SAS"
+      
                 
     # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      link : blog
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Tableau"
+      image : "images/clients/tableau.png"
+      designation : "365 DataScience"
                 
     # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Tableau + SQL"
+      image : "images/clients/tableau_sql.png"
+      designation : "365 DataScience"
+      
+     # testimonial item loop
+    - name : "Deep Learning with Pytorch: Zero to GANs"
+      image : "images/clients/jovianml_pytorch.png"
+      designation : "Jovian ML"     
+      
+      

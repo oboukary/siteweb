@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://oboukary.netlify.com/"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "https://oboukary.com/"
+title = "Boukary Ouedraogo"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"

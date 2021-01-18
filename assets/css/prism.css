@@ -99,6 +99,7 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: visible;
 	padding: 0;
+	border: 0;
 	
 }
 pre[class*="language-"]&gt;code {
@@ -118,6 +119,7 @@ code[class*="language"] {
 	/* padding: 0 1em; */
 	display: block;
 	overflow: auto;
+	
 }
 
 /* Margin bottom to accommodate shadow */
@@ -311,14 +313,14 @@ pre {
  COPY TO CLIPBOARD
 
 ***********************************/
-div.code-toolbar {
+ div.code-toolbar {
 	position: relative;
 }
 
 div.code-toolbar > .toolbar {
 	position: absolute;
-	top: .3em;
-	right: .2em;
+	top: .0em;
+	right: .0em;
 	transition: opacity 0.3s ease-in-out;
 	opacity: 0;
 }
@@ -357,13 +359,13 @@ div.code-toolbar > .toolbar button {
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
-	color: #bbb;
+	color: blue;
 	font-size: .8em;
 	padding: 0 .5em;
-	background: #f5f2f0;
+	background: #82345a;
 	background: rgba(224, 224, 224, 0.2);
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-	border-radius: .5em;
+	border-radius: .8em;
 }
 
 div.code-toolbar > .toolbar a:hover,
