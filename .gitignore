@@ -2,8 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-public/ # if using Netlify
 resources
 Thumbs.db
 .DS_Store
-public
