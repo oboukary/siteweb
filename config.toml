@@ -14,7 +14,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$",
            "\\.knit\\.md$", "\\.utf8\\.md$"]
 # disable language
 disableLanguages = []
-publish_dir= public/
 ################################# Outputs #################################
 # hugo outputs
 [outputs]
