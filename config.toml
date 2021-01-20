@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://oboukary.com/"
+baseURL = "https://oboukary.com/"
 title = "Boukary Ouedraogo"
 theme = "airspace-hugo"
 # post pagination
