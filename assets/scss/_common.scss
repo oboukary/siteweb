@@ -616,3 +616,8 @@ input[type="tel"] {
     position: static;
   }
 }
+body, button, input, textarea {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased; }

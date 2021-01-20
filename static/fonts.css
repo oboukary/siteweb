@@ -83,11 +83,3 @@
        url('../fonts/source-code-pro-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/source-code-pro-v11-latin-italic.svg#SourceCodePro') format('svg'); /* Legacy iOS */
 }
-
-body{
-  body, button, input, textarea {
-  font-family: 'Muli', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased; }
-}

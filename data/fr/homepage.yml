@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "Découvrir mon blog"
-    link : "project"
+    link : "blog"
 
 ############################# About #################################
 about:
@@ -108,6 +108,14 @@ funfacts:
      # testimonial item loop
     - name : "Deep Learning with Pytorch: Zero to GANs"
       image : "images/clients/jovianml_pytorch.png"
-      designation : "Jovian ML"     
+      designation : "Jovian ML"   
+      
+      
+           # testimonial item loop
+    - name : "Machine Learning Engineer Nanodegree"
+      image : "images/clients/mle_udacity.png"
+      designation : "Udacity" 
+      link : "https://confirm.udacity.com/AA23NCMF"
+      
       
       
