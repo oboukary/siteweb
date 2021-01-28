@@ -2,6 +2,7 @@
 title: Blogdown
 author: Boukary Ouedraogo
 date: '2021-01-11'
+image: images/blog/blog-post-1.jpg
 slug: blogdown
 categories:
   - Artificial Intelligence
@@ -22,11 +23,22 @@ if (x == 2) {
 p <- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
   geom_point(aes(color = Species, shape = Species))+
   scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07"))
-ggplotly(p)
-}
+ggplotly(p)}
 ```
 
-```python
+
+Dans cette partie je rédige comme si j'étais dans un document html
+
+| Nom       | Prenom  | Matière      |
+|-----------|---------|--------------|
+| Ouedraogo | Boukary | GLM avec R   |
+| Ouedraogo | Boukary | Statistiques |
+| Ouedraogo | Boukary | Anglais      |
+
+: Le premier tableau que j'insere dans Rmarkdown
+
+
+``` {.python}
 # Commentaire python
 '''
 commentaire python
@@ -38,8 +50,10 @@ def factorielle(n):
         return 1
     else:
         return n * factorielle(n - 1)
+print("Bonjour")
 ```
-```SAS
+
+``` {.sas}
 PROC PRINT data=sashelp.cars;
 var _numeric_;
 RUN;
@@ -69,6 +83,7 @@ by x2;
 format ddmmyy10.;
 run;
 ```
-```sql
+
+``` {.sql}
 SELECT * FROM base;
 ```
