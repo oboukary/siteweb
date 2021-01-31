@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "Découvrir mon blog"
-    link : "post"
+    link : "bog"
 
 ############################# About #################################
 about:
