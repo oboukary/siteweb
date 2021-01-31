@@ -3,12 +3,12 @@ banner:
   enable : true
   bg_image : "images/slider-bg.jpg"
   bg_overlay : true
-  title : " Data science<br/> &intelligence artificielle"
+  title : " Data science <br/> & <br/>intelligence artificielle"
   content : "Les données au service des hommes"
   button:
     enable : true
     label : "Découvrir mon blog"
-    link : "blog"
+    link : "post"
 
 ############################# About #################################
 about:
@@ -17,10 +17,10 @@ about:
   description : " Je suis un passionné des sciences de la donnée et de ses applications dans
                divers domaines comme l'économie, la finance, l'assurance, le secteur médical etc."
   content : "Je suis ingénieur statisticien-économiste diplômé de l'Institut National de
-             de Statistique et d'Economie Appliquée(INSEA) de Rabat au Maroc.
+             de Statistique et d'Economie Appliquée(<strong>INSEA</strong>) de Rabat au Maroc.
              Je suis également titulaire d'un master en modélisation prospective de
              l'Université Paris Saclay.<br/> J'ai une passion pour tout ce qui concerne la data science et l'IA.
-             J'ai également programmé sous R, Python et SAS."
+             J'ai également programmé sous <strong>R</strong>, <strong>Python</strong> et <strong>SAS</strong>."
   image : "images/wrapper-img.png"
 
 
@@ -70,13 +70,13 @@ funfacts:
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
-      count : "99"
+      name : "Certificats"
+      count : "7"
       
     # funfacts item loop
     - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Articles publiés"
-      count : "45"
+      count : "5"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -90,7 +90,11 @@ funfacts:
 
   testimonial_slider:
     # testimonial item loop
-    - name : "SAS Certified Specialist Base Programming Using SAS 9.4"
+    - name : "SAS Certified Professional: Advanced Programming Using SAS 9.4"
+      image : "images/clients/advanced_sas.png"
+      designation : "SAS"
+       
+    - name : "SAS Certified Specialist: Base Programming Using SAS 9.4"
       image : "images/clients/sas_base.png"
       designation : "SAS"
       

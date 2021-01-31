@@ -26,6 +26,7 @@ home = ["HTML","RSS"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+
 #################################### Plugins ##############################
 
 # CSS Plugins
@@ -81,13 +82,15 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [params]
 logo = "images/logo.png"
 logo_width = "150px"
+last_articles = ["blog","post"]
+Image= "images/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Dernières publications"
+author = "Boukary Ouedraogo"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+mobile = ""
+email = "bo.ouedraogo7@gmail.com"
+location = "Courbevoie, France"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -108,7 +111,7 @@ link = "contact"
 
 # google map
 [params.gmap]
-enable = true
+enable = false
 gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -121,28 +124,16 @@ enable = false
 
 ############################# social site ########################
 [[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "linkedin" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.linkedin.com/in/oboukary/"
 
 [[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "github--v1" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://github.com/oboukary"
 
 [[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "twitter-circled--v1" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://twitter.com/Boukary16"
 
 defaultContentLanguageInSubdir = false
 ##############[markup]
@@ -155,8 +146,8 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) Tous droits réservés"
+icons8   = "Icônes provenant de [Icons8](https://icones8.fr/)"
 
 ######################### france navigation #############################
 # main menu
@@ -167,7 +158,7 @@ weight = 1
 
 [[menu.main]]
 name = "Blog"
-URL = "blog/"
+URL = "post/"
 weight = 2
 
 [[menu.main]]

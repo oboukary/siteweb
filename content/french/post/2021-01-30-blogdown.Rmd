@@ -1,0 +1,28 @@
+---
+title: Blogdown
+author: Boukary OUEDRAOGO
+date: '2021-01-31'
+slug: dyplr
+categories: []
+tags: []
+bg_image: images/featue-bg.jpg
+image: images/blog/blog-post-1.jpg
+---
+## Les modèles linéaires généralisées.
+Les modèles linéaires généralisés sont comme leur nom l'indique généralise les modèles linéaires comme `l'ANOVA` ou le modèle de regression linéaire canonique à des modèles plus complexes.
+```{r,echo=TRUE,eval=TRUE, message=F}
+library(glmnet)
+library(tidyverse)
+library(caret)
+library(ggplot2)
+library(plotly)
+data(iris)
+options(repr.plot.width = 10, repr.plot.height = 5) # to adjust size of plots
+
+p<-ggplot(data=iris,aes(x=Sepal.Width, y=Sepal.Length,color=Species)) +
+geom_point() + geom_smooth(se=FALSE) +facet_wrap(~Species,scale='free_y') +theme_minimal()
+ggplotly(p)
+```
+
+
+

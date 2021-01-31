@@ -1,6 +1,6 @@
 ---
 bg_image: images/featue-bg.jpg
-description: this is meta description
+description: Vous pouvez m'écrire via ce formulaire.Je ferai de mon mieux pour vous répondre
 draft: false
-title: Drop Us A Note
+title: Ecrivez-moi!
 ---
