@@ -24,7 +24,7 @@ home = ["HTML","RSS"]
     [markup.goldmark.renderer]
       unsafe = true
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+    blog = "/:year/:month/:day/:slug/"
 
 
 #################################### Plugins ##############################
