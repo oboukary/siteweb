@@ -94,7 +94,7 @@ location = "Courbevoie, France"
 # contact form action
 contact_form_action = "https://formspree.io/f/xjvpzkge" # contact form works with : https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # Your ID# search
+google_analitycs_id = "G-26T44880RB" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
 
