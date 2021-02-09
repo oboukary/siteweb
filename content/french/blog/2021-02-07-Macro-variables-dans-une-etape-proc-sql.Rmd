@@ -1,0 +1,21 @@
+---
+title: "Macro-variable dans une proc sql"
+author: "Boukary Ouedraogo"
+date: "07/02/2021"
+slug: macro_variables_sql
+categories: []
+tags: []
+bg_image: images/featue-bg.jpg
+image: images/blog/blog-post-1.jpg
+---
+```sas
+data test;
+set sashelp.cars;
+where origin="US";
+run;
+
+proc sql;
+select count(*) from sashelp.cars;
+title 'Titre';
+quit;
+```

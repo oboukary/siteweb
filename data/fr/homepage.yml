@@ -1,10 +1,10 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/slider-bg.png"
   bg_overlay : true
   title : " Data science <br/> & <br/>intelligence artificielle"
-  content : "Les données au service des hommes"
+  content : "Je suis un fan de la data science et l'IA et <br/>j'adore découvrir de nouvelles choses"
   button:
     enable : true
     label : "Découvrir mon blog"

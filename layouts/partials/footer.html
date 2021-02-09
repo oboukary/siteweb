@@ -9,7 +9,7 @@
             {{ end }}
 					</ul>
 				</div>
-				<p class="copyright">{{ site.Params.copyright | markdownify }}</p>
+				<p class="copyright">{{ replace .Site.Copyright "{year}" now.Year | markdownify }}</p>
 				<p class="icons8">{{ site.Params.icons8 | markdownify }}</p>
 			</div>
 		</div>

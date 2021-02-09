@@ -1,6 +1,6 @@
 ---
 bg_image: images/featue-bg.jpg
-description: Vous pouvez m'écrire via ce formulaire.Je ferai de mon mieux pour vous répondre
+description: Laissez-moi un message si vous avez des questions!
 draft: false
 title: Ecrivez-moi!
 ---

@@ -1,0 +1,8 @@
+---
+title: "A short report"
+author: "Travis Gerke"
+date: "`r format(Sys.time(), '%Y %B %d')`"
+output: 
+   html_document
+---
+

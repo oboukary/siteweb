@@ -1,0 +1,98 @@
+\input{preambule}
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
+\begin{document}
+%------------------------------------------
+%  ASIDE
+%------------------------------------------
+\input{aside}
+%%--------------------------------------
+\fcolorbox{white}{white}{\begin{minipage}[c][0.95\textheight][t]{0.70\linewidth}
+
+
+%---------------------------------------------------------------------------------------
+%	TITLE HEADLINE
+%----------------------------------------------------------------------------------------
+\vspace{-3pt}
+% use this for multiple words like working titles etc.
+%\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\hspace{46pt}\HUGE{\textcolor{white}{\uppercase{M.Sc. Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \parbox[b]{5cm}{   \large{ \textcolor{white}{{IT Consultant}}}\\
+% \large{ \textcolor{white}{{JS Fullstack Engineer}}}}
+%}}
+
+% use this for single words, e.g. CV or RESUME etc.
+\colorbox{bgcol}{\makebox[\mpwidth][c]{\large{\textcolor{white}{\uppercase{Boukary OUEDRAOGO}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.5cm}} \Large{\textcolor{white}{\uppercase{ Data scientist}} } }}
+
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+
+
+%\hspace{-1.6cm}
+%\includegraphics[trim= 0 250 0 270,clip,width=1\linewidth+3.1cm]{myfoto.jpg}	%trimming relative to image size!
+\includegraphics[trim= 350 150 0 200, clip ,width=\linewidth]{myfoto.jpg}	%trimming relative to image size
+
+%---------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\transparent{0.85}%
+\vspace{-130pt}
+\hspace{0.4\linewidth}
+\colorbox{bgcol}{
+	\parbox{0.5\linewidth}{
+		\transparent{1}%
+		\begin{center}
+		\larrow{sectcol}\larrow{sectcol}\textcolor{white}{I create awesome resume templates in LaTeX for everyone. Besides that I am working at the University of Bremen and engineer fullstack JS applications with Meteor.}
+		\end{center}
+	}
+}
+\vspace{50pt}
+
+%============================================================================%
+%
+%	CV SECTIONS AND EVENTS (MAIN CONTENT)
+%
+%============================================================================%
+
+
+
+\vspace{12pt}
+
+%---------------------------
+%	EXPERIENCE
+%---------------------------
+\input{experience}
+\vspace{12pt}
+%---------------------------
+%	EDUCATION SECTION
+%---------------------------
+\input{education}
+
+\end{minipage}}%
+
+%-------------------------------------------------------------------------------------------------
+%	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
+%--------------------------------------------------------------------------------------------------
+
+\null
+\vspace*{\fill}
+\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\mystrut \small \textcolor{white}{Coypright 2018 jkuester@uni-bremen.de} $\cdot$ \textcolor{white}{licensed unter MIT license}}}
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT END
+%
+%
+%
+%============================================================================%
+\end{document}

@@ -96,129 +96,182 @@ color: #618791;
 	color: #ab0c14;
 }
 /*********** FIN PYTHON ******************/
-:not(pre.language-sas) > code,
-pre.language-sas {
-    background-color: white;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-bottom: 1em;
-} /* Inline code */
-:not(pre.language-sas) > code {
-    position: relative;
-    padding: 0.2em;
-    border-radius: 0.3em;
-    color: #c92c2c;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    display: inline;
-    white-space: normal;
-}
-pre.language-sas:before,
-pre.language-sas:after {
-    content: "";
-    z-index: -2;
-    display: block;
-    position: absolute;
-    bottom: 0.75em;
-    left: 0.18em;
-    width: 40%;
-    height: 20%;
-    max-height: 13em; /*box-shadow: 0px 13px 8px #979797;*/
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-}
-:not(pre.language-sas) > code:after,
-pre.language-sas:after {
-    right: 0.75em;
-    left: auto;
-    -webkit-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    -o-transform: rotate(2deg);
-    transform: rotate(2deg);
-}
+/** * prism.js SAS Studio theme for JavaScript, CoffeeScript, CSS and HTML * Based on Coy Prism Theme * @author Edward Porter */
 
-.language-sas > .token.comment,
-.language-sas > .token.block-comment,
-.language-sas > .token.prolog,
-.language-sas > .token.doctype,
-.language-sas > .token.cdata {
+./** * prism.js SAS Studio theme for JavaScript, CoffeeScript, CSS and HTML * Based on Coy Prism Theme * @author Edward Porter */
+
+.language-sas >.token.comment,
+.language-sas >.token.block-comment,
+.language-sas >.token.prolog,
+.language-sas >.token.doctype,
+.language-sas >.token.cdata {
     color: #1b7a1b;
 }
-.language-sas > .token.punctuation {
+.language-sas >.token.punctuation {
     color: #686868;
 }
-.language-sas > .token.property,
-.language-sas > .token.tag,
-.language-sas > .token.boolean,
-.language-sas > .token.number,
-.language-sas > .token.constant,
-.language-sas > .token.symbol,
-.language-sas > .token.deleted {
+.language-sas >.token.property,
+.language-sas >.token.tag,
+.language-sas >.token.boolean,
+.language-sas >.token.number,
+.language-sas >.token.constant,
+.language-sas >.token.symbol,
+.language-sas >.token.deleted {
     color: #08726d;
 }
-.language-sas > .token.step.keyword,
-.language-sas > .token.macro-declaration .language-sas > .token.keyword,
-.language-sas > .token.macro-end .language-sas > .token.keyword {
+.language-sas >.token.step.keyword,
+.language-sas >.token.macro-declaration .language-sas >.token.keyword,
+.language-sas >.token.macro-end .language-sas >.token.keyword {
     color: #000080;
     font-weight: 600;
 }
-.token.datalines.string {
+.language-sas >.token.datalines.string {
     color: #89632b;
 }
-.language-sas > .token.selector,
-.language-sas > .token.attr-name,
-.language-sas > .token.string,
-.language-sas > .token.char,
-.language-sas > .token.function,
-.language-sas > .token.builtin,
-.language-sas > .token.inserted {
+.language-sas >.token.selector,
+.language-sas >.token.attr-name,
+.language-sas >.token.char,
+.language-sas >.token.builtin,
+.language-sas >.token.inserted {
     color: #800080;
 }
-.language-sas > .token.operator,
-.language-sas > .token.entity,
-.language-sas > .token.url,
-.language-sas > .token.variable {
+.language-sas >.token.operator,
+.language-sas >.token.entity,
+.language-sas >.token.url,
+.language-sas >.token.variable {
     color: #a67f59; /*background: rgba(255, 255, 255, 0.5);*/
 }
-.language-sas > .token.atrule,
-.language-sas > .token.attr-value,
-.language-sas > .token.keyword,
-.language-sas > .token.input.keyword,
-.language-sas > .token.arg.keyword,
-.language-sas > .token.specialOperator.operator,
-.language-sas > .token.class-name {
+.language-sas >.token.atrule,
+.language-sas >.token.attr-value,
+.language-sas >.token.keyword,
+.language-sas >.token.specialOperator.operator,
+.language-sas >.token.class-name {
     color: #0000ff;
 }
-.language-sas > .token.regex,
-.language-sas > .token.important {
+.language-sas >.token.regex,
+.language-sas >.token.important {
     color: #e90;
 }
-.language-css .language-sas > .token.string,
-.style .language-sas > .token.string {
-    color: #a67f59; /*background: rgba(255, 255, 255, 0.5);*/
+
+.language-sas >.token.string {
+    color: #740e78; 
 }
-.language-sas > .token.important {
+.language-sas >.token.important {
     font-weight: normal;
 }
-.language-sas > .token.bold {
+.language-sas >.token.bold {
     font-weight: bold;
 }
-.language-sas > .token.italic {
+.language-sas >.token.italic {
     font-style: italic;
 }
-.language-sas > .token.entity {
+.language-sas >.token.entity {
     cursor: help;
 }
-.language-sas > .namespace {
-    opacity: 0.7;
+.language-sas > .token.proc-args >.token.arg.keyword,
+.language-sas > .token.options-args >.token.arg.keyword{
+	color: #0000ff ;
 }
+
+.language-sas > .token.proc-args >.token.function.keyword{
+	color: #434345 ;
+}
+
+ /* Plugin styles */
+.language-sas >.token.tab:not(:empty):before,
+.language-sas >.token.cr:before,
+.language-sas >.token.lf:before {
+    color: #e0d7d1;
+} /* Plugin styles: Line Numbers */
 
 
 /******** FIN sas *******/
+/******** SQL **********/
+.language-sql >.token.comment,
+.language-sql >.token.block-comment,
+.language-sql >.token.prolog,
+.language-sql >.token.doctype,
+.language-sql >.token.cdata {
+    color: #1b7a1b;
+}
+.language-sql >.token.punctuation {
+    color: #686868;
+}
+.language-sql >.token.property,
+.language-sql >.token.tag,
+.language-sql >.token.boolean,
+.language-sql >.token.number,
+.language-sql >.token.constant,
+.language-sql >.token.symbol,
+.language-sql >.token.deleted {
+    color: #08726d;
+}
+.language-sql >.token.step.keyword,
+.language-sql >.token.macro-declaration .language-sql >.token.keyword,
+.language-sql >.token.macro-end .language-sql >.token.keyword {
+    color: #000080;
+    font-weight: 600;
+}
+.language-sql >.token.datalines.string {
+    color: #89632b;
+}
+.language-sql >.token.selector,
+.language-sql >.token.attr-name,
+.language-sql >.token.string,
+.language-sql >.token.char,
+.language-sql >.token.function,
+.language-sql >.token.builtin,
+.language-sql >.token.inserted {
+    color: #800080;
+}
+.language-sql >.token.operator,
+.language-sql >.token.entity,
+.language-sql >.token.url,
+.language-sql >.token.variable {
+    color: #a67f59; /*background: rgba(255, 255, 255, 0.5);*/
+}
+.language-sql >.token.atrule,
+.language-sql >.token.attr-value,
+.language-sql >.token.keyword,
+.language-sql >.token.specialOperator.operator,
+.language-sql >.token.class-name {
+    color: #0000ff;
+}
+.language-sql >.token.regex,
+.language-sql >.token.important {
+    color: #e90;
+}
+.language-sqlcss .language-sql >.token.string,
+.style .language-sql >.token.string {
+    color: #a67f59; /*background: rgba(255, 255, 255, 0.5);*/
+}
+.language-sql >.token.important {
+    font-weight: normal;
+}
+.language-sql >.token.bold {
+    font-weight: bold;
+}
+.language-sql >.token.italic {
+    font-style: italic;
+}
+.language-sql >.token.entity {
+    cursor: help;
+}
+.language-sql >.token.arg.keyword{
+    color: blue !important;
+}
+
+ /* Plugin styles */
+.language-sql >.token.tab:not(:empty):before,
+.language-sql >.token.cr:before,
+.language-sql >.token.lf:before {
+    color: #e0d7d1;
+} /* Plugin styles: Line Numbers */
+
+/***** FIN SQL ********/
+
+
+
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -422,10 +475,10 @@ div.code-toolbar > .toolbar button {
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
-	color: #bf800a;
+	color: #54545c;
 	font-size: 0.8em;
 	padding: 0 .5em;
-	font-weight: 1000;
+	font-weight: 100;
 	background: #f5f2f0;
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
 	border-radius: .5em;
@@ -453,9 +506,10 @@ div.code-toolbar > .toolbar span:focus {
 }
 
 img.resize{
-	width: 50%;
+	width: 15%;
 }
-
-
+img.kaggle{
+	width: 20%;
+}
 
 

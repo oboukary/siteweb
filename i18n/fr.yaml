@@ -30,3 +30,11 @@
   translation: Catégories
 - id: posted_on
   translation: Publié le
+- id: your_message
+  translation: Saisir le message ici
+- id: subject
+  translation: Objet 
+- id: email_address
+  translation: Adresse courriel 
+- id: your_name
+  translation: Nom et prénom

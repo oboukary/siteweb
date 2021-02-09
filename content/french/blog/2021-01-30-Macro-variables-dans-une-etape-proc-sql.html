@@ -1,0 +1,19 @@
+---
+title: "Macro-variable dans une proc sql"
+author: "Boukary Ouedraogo"
+date: "07/02/2021"
+slug: macro_variables_sql
+categories: []
+tags: []
+bg_image: images/featue-bg.jpg
+image: images/blog/blog-post-1.jpg
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<pre class="language-sas"><code class="language-sas">proc sql noprint;
+select distinct origin into :list separated by &quot;,&quot;
+from sashelp.cars
+;
+quit</code></pre>

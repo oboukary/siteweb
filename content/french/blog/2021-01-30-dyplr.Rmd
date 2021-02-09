@@ -8,4 +8,3 @@ tags: []
 bg_image: images/featue-bg.jpg
 image: images/blog/blog-post-1.jpg
 ---
-

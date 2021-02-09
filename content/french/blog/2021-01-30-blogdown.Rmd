@@ -20,7 +20,10 @@ data(iris)
 options(repr.plot.width = 10, repr.plot.height = 5) # to adjust size of plots
 
 p<-ggplot(data=iris,aes(x=Sepal.Width, y=Sepal.Length,color=Species)) +
-geom_point() + geom_smooth(se=FALSE) +facet_wrap(~Species,scale='free_y') +theme_minimal()
+geom_point() + geom_smooth(se=FALSE) + 
+  facet_wrap(~Species,scale='free_y') + 
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 40, b = 0, l = 0)))
+  
 ggplotly(p)
 ```
 

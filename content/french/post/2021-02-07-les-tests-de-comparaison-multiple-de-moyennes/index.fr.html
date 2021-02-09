@@ -1,0 +1,35 @@
+---
+title: Les tests de comparaison multiple de moyennes
+author: Boukary Ouedraogo
+date: '2021-02-07'
+slug: les-tests-de-comparaison-multiple-de-moyennes
+categories:
+  - Statistiques
+tags:
+  - SAS
+  - ANOVA
+bg_image: images/featue-bg.jpg
+image: images/blog/blog-post-1.jpg
+---
+
+<script src="{{< blogdown/postref >}}index.fr_files/header-attrs/header-attrs.js"></script>
+
+
+<pre class="language-sas"><code class="language-sas">options obs=10 minoperator;
+PROC TTEST data=dataset(keep=var rename=( var=var2));
+var var2;
+title &#39;test&#39;;
+run;
+
+
+PROC TTEST data=dataset;
+var var1;
+title &#39;test&#39;;
+run;
+
+data test;
+set sashelp.cars(obs=10);
+a=mean(mrsp);
+run;</code></pre>
+<pre class="language-python"><code class="language-python">import pandas as pd
+import numpy as np</code></pre>
