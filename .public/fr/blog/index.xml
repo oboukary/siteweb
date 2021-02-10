@@ -55,11 +55,20 @@
     
     <item>
       <title>Macro-variable dans une proc sql</title>
-      <link>https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/</link>
+      <link>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/</guid>
+      <guid>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</guid>
       <description>  proc sql noprint; select distinct origin into :list separated by &amp;quot;,&amp;quot; from sashelp.cars ; quit </description>
+    </item>
+    
+    <item>
+      <title>Macro-variable dans une proc sql</title>
+      <link>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</guid>
+      <description>  data test; set sashelp.cars; where origin=&amp;quot;US&amp;quot;; run; proc sql; select count(*) from sashelp.cars; title &amp;#39;Titre&amp;#39;; quit; </description>
     </item>
     
   </channel>

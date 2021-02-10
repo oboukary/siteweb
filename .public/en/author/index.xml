@@ -8,21 +8,12 @@
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year} [Themefisher](https://themefisher.com) All Rights Reserved</copyright><atom:link href="https://www.oboukary.com/en/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>https://www.oboukary.com/en/author/john-doe/</link>
+      <title>Boukary Ouedraogo</title>
+      <link>https://www.oboukary.com/en/author/boukary-ouedraogo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.oboukary.com/en/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
-    </item>
-    
-    <item>
-      <title>Mark Dinn</title>
-      <link>https://www.oboukary.com/en/author/mark-dinn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.oboukary.com/en/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
+      <guid>https://www.oboukary.com/en/author/boukary-ouedraogo/</guid>
+      <description>Boukary Ouedraogo holds a Msc in Statistics and Applied Economics from National Institute of Statistics and Applied Economics in Rabat He also holds a master&amp;rsquo;s degree in prospective modelling from the University of Paris Sacaly.</description>
     </item>
     
   </channel>

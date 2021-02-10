@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAS on Boukary Ouedraogo</title>
+    <link>https://www.oboukary.com/fr/tags/sas/</link>
+    <description>Recent content in SAS on Boukary Ouedraogo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year} [Themefisher](https://themefisher.com) Tous droits réservés</copyright>
+    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.oboukary.com/fr/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les tests de comparaison multiple de moyennes</title>
+      <link>https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/</guid>
+      <description>  options obs=10 minoperator; PROC TTEST data=dataset(keep=var rename=( var=var2)); var var2; title &amp;#39;test&amp;#39;; run; PROC TTEST data=dataset; var var1; title &amp;#39;test&amp;#39;; run; data test; set sashelp.cars(obs=10); a=mean(mrsp); run; import pandas as pd import numpy as np </description>
+    </item>
+    
+  </channel>
+</rss>

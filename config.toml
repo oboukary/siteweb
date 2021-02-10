@@ -3,7 +3,6 @@ baseURL = "https://www.oboukary.com/"
 title = "Boukary Ouedraogo"
 theme = "airspace-hugo"
 # post pagination
-#publishDir ="public/"
 paginate = "4"
 # post excerpt
 summaryLength = "30"
@@ -171,7 +170,7 @@ weight = 4
 
 [[Languages.fr.menu.main]]
 name = "CV"
-URL = "cv/"
+URL = "cv/resume.pdf"
 weight = 5
 
 

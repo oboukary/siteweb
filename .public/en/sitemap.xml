@@ -3,23 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.oboukary.com/en/2021/01/31/dyplr/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.oboukary.com/fr/2021/01/31/dyplr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.oboukary.com/en/2021/01/31/dyplr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.oboukary.com/en/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-23T13:05:29+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -29,21 +14,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.oboukary.com/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/blog/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.oboukary.com/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.oboukary.com/en/blog/"
                 />
   </url>
   
@@ -78,16 +48,6 @@
   </url>
   
   <url>
-    <loc>https://www.oboukary.com/en/tags/ai/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/tags/android/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.oboukary.com/en/categories/artificial-intelligence/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
@@ -115,11 +75,6 @@
                 hreflang="en"
                 href="https://www.oboukary.com/en/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/tags/company/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url>
   
   <url>
@@ -168,38 +123,18 @@
   </url>
   
   <url>
-    <loc>https://www.oboukary.com/en/2018/09/24/how-to-wear-bright-shoes/</loc>
+    <loc>https://www.oboukary.com/en/blog/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/2018/09/24/how-to-wear-bright-shoes/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/2018/09/24/how-to-wear-bright-shoes/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/2018/09/24/how-to-wear-bright-shoes/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/categories/legacy-support/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/tags/mechine/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/tags/news/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.oboukary.com/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.oboukary.com/en/blog/"
+                />
   </url>
   
   <url>
@@ -276,6 +211,20 @@
   </url>
   
   <url>
+    <loc>https://www.oboukary.com/en/author/boukary-ouedraogo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.oboukary.com/fr/author/boukary-ouedraogo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.oboukary.com/en/author/boukary-ouedraogo/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.oboukary.com/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -287,14 +236,6 @@
                 hreflang="en"
                 href="https://www.oboukary.com/en/contact/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/author/john-doe/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.oboukary.com/en/author/mark-dinn/</loc>
   </url>
   
   <url>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Copyright &amp;copy; {year} [Themefisher](https://themefisher.com) Tous droits réservés</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.oboukary.com/fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.oboukary.com/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les tests de comparaison multiple de moyennes</title>
+      <link>https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/</guid>
+      <description>  options obs=10 minoperator; PROC TTEST data=dataset(keep=var rename=( var=var2)); var var2; title &amp;#39;test&amp;#39;; run; PROC TTEST data=dataset; var var1; title &amp;#39;test&amp;#39;; run; data test; set sashelp.cars(obs=10); a=mean(mrsp); run; import pandas as pd import numpy as np </description>
+    </item>
+    
     <item>
       <title>Blogdown</title>
       <link>https://www.oboukary.com/fr/2021/01/31/dyplr/</link>
@@ -64,11 +73,20 @@
     
     <item>
       <title>Macro-variable dans une proc sql</title>
-      <link>https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/</link>
+      <link>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/</guid>
+      <guid>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</guid>
       <description>  proc sql noprint; select distinct origin into :list separated by &amp;quot;,&amp;quot; from sashelp.cars ; quit </description>
+    </item>
+    
+    <item>
+      <title>Macro-variable dans une proc sql</title>
+      <link>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</guid>
+      <description>  data test; set sashelp.cars; where origin=&amp;quot;US&amp;quot;; run; proc sql; select count(*) from sashelp.cars; title &amp;#39;Titre&amp;#39;; quit; </description>
     </item>
     
     <item>

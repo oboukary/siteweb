@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr"><head>
   <meta charset="utf-8">
+  <script src="js/bundle.js"> </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
@@ -48,6 +49,7 @@
   <link rel="icon" href="https://www.oboukary.com/images/favicon.png" type="image/x-icon">
 
 <script src="/js/prism.min.js"></script>
+
 </head><body>
 <!-- preloader start -->
 <div class="preloader">
@@ -93,7 +95,7 @@
               
               
               
-              <li><a href="/fr/cv/">CV</a></li>
+              <li><a href="/fr/cv/resume.pdf/">CV</a></li>
               
               
 
@@ -110,7 +112,7 @@
                   
                   
                   
-                  <option id="fr" value="https://www.oboukary.com/fr/author/boukary-ouedraogo/" selected>
+                  <option id="fr" value="https://www.oboukary.com/fr/2021/01/31/dyplr/" selected>
                     Français
                   </option>
                   
@@ -204,6 +206,39 @@ text-align: justify;
 			<div class="col-md-6">
 				<div class="post">
 					<div class="post-thumb">
+						<a href="https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/">
+							<img class="img-responsive" src="/images/blog/blog-post-1.jpg" alt="Les tests de comparaison multiple de moyennes">
+						</a>
+					</div>
+					<h3 class="post-title"><a href="https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/">Les tests de comparaison multiple de moyennes</a></h3>
+					<div class="post-meta">
+						<ul>
+							<li><i class="ion-calendar"></i> February 7, 2021</li>
+              <li><i class="ion-android-people"></i>
+                Par
+                
+                <a class="text-primary" href="/fr/author/boukary-ouedraogo">Boukary Ouedraogo</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+                <a href="/fr/tags/sas">S a s</a>
+								
+                , <a href="/fr/tags/anova">A n o v a</a>
+								
+              </li>
+						</ul>
+					</div>
+					<div class="post-content">
+						<p>  options obs=10 minoperator; PROC TTEST data=dataset(keep=var rename=( var=var2)); var var2; title &#39;test&#39;; run; PROC TTEST data=dataset; var var1; title &#39;test&#39;; run; data test; set sashelp.cars(obs=10); a=mean(mrsp); run; import pandas as pd import numpy as np </p>
+						<a href="https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/" class="btn btn-main">Lire la suite</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="post">
+					<div class="post-thumb">
 						<a href="https://www.oboukary.com/fr/2021/01/30/water-world/">
 							<img class="img-responsive" src="/images/blog/blog-post-1.jpg" alt="Water World">
 						</a>
@@ -233,11 +268,11 @@ text-align: justify;
 			<div class="col-md-6">
 				<div class="post">
 					<div class="post-thumb">
-						<a href="https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/">
-							<img class="img-responsive" src="/" alt="Macro-variable dans une proc sql">
+						<a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/">
+							<img class="img-responsive" src="/images/blog/blog-post-1.jpg" alt="Macro-variable dans une proc sql">
 						</a>
 					</div>
-					<h3 class="post-title"><a href="https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/">Macro-variable dans une proc sql</a></h3>
+					<h3 class="post-title"><a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/">Macro-variable dans une proc sql</a></h3>
 					<div class="post-meta">
 						<ul>
 							<li><i class="ion-calendar"></i> January 1, 0001</li>
@@ -254,7 +289,36 @@ text-align: justify;
 					</div>
 					<div class="post-content">
 						<p>  proc sql noprint; select distinct origin into :list separated by &quot;,&quot; from sashelp.cars ; quit </p>
-						<a href="https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/" class="btn btn-main">Lire la suite</a>
+						<a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/" class="btn btn-main">Lire la suite</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="post">
+					<div class="post-thumb">
+						<a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/">
+							<img class="img-responsive" src="/images/blog/blog-post-1.jpg" alt="Macro-variable dans une proc sql">
+						</a>
+					</div>
+					<h3 class="post-title"><a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/">Macro-variable dans une proc sql</a></h3>
+					<div class="post-meta">
+						<ul>
+							<li><i class="ion-calendar"></i> January 1, 0001</li>
+              <li><i class="ion-android-people"></i>
+                Par
+                
+                <a class="text-primary" href="/fr/author/boukary-ouedraogo">Boukary Ouedraogo</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+              </li>
+						</ul>
+					</div>
+					<div class="post-content">
+						<p>  data test; set sashelp.cars; where origin=&quot;US&quot;; run; proc sql; select count(*) from sashelp.cars; title &#39;Titre&#39;; quit; </p>
+						<a href="https://www.oboukary.com/fr/1/01/01/macro_variables_sql/" class="btn btn-main">Lire la suite</a>
 					</div>
 				</div>
 			</div>

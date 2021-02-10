@@ -3,23 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.oboukary.com/fr/2021/01/31/dyplr/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.oboukary.com/en/2021/01/31/dyplr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.oboukary.com/fr/2021/01/31/dyplr/"
-                />
+    <loc>https://www.oboukary.com/fr/tags/anova/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.oboukary.com/fr/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +20,61 @@
                 hreflang="fr"
                 href="https://www.oboukary.com/fr/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/categories/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.oboukary.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.oboukary.com/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/post/les-tests-de-comparaison-multiple-de-moyennes/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/post/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/tags/sas/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/categories/statistiques/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/tags/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.oboukary.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.oboukary.com/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/2021/01/31/dyplr/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -103,21 +148,6 @@
   </url>
   
   <url>
-    <loc>https://www.oboukary.com/fr/categories/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.oboukary.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.oboukary.com/fr/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.oboukary.com/fr/categories/company-news/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
@@ -178,21 +208,6 @@
   </url>
   
   <url>
-    <loc>https://www.oboukary.com/fr/tags/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.oboukary.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.oboukary.com/fr/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.oboukary.com/fr/tags/technology/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
@@ -242,6 +257,16 @@
   
   <url>
     <loc>https://www.oboukary.com/fr/author/boukary-ouedraogo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.oboukary.com/en/author/boukary-ouedraogo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.oboukary.com/fr/author/boukary-ouedraogo/"
+                />
   </url>
   
   <url>
@@ -259,7 +284,11 @@
   </url>
   
   <url>
-    <loc>https://www.oboukary.com/fr/1/01/01/macro-variable-dans-une-proc-sql/</loc>
+    <loc>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.oboukary.com/fr/1/01/01/macro_variables_sql/</loc>
   </url>
   
   <url>
